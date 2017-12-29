@@ -1,3 +1,32 @@
 .index {
-    background: linear-gradient(180deg, purple, orange);
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(187, 85, 187), rgb(255, 144, 40));
+}
+
+/*
+font-family: 'Satisfy', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+.index__title {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 55px;
+    color: white;
+    padding-top: 250px;
+}
+
+.index__buttons {
+    margin-top: 20px;
+    text-align: center;
+    z-index: 10000;
+}
+
+.index-button {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 5px;
+    color: white;
+    background-color: rgb(82, 62, 87);
+    font-size: 12px;
 }

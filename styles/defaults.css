@@ -3,3 +3,34 @@ html, body, div {
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1;
+}
+.snowflake:hover {
+    cursor: default;
+}
